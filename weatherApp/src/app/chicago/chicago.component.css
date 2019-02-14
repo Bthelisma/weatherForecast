@@ -1,0 +1,12 @@
+.blueBorder {
+    border: 5px solid olivedrab;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.imageWithText {
+    width: 600px;
+    height: 420px;
+    float: right;
+    padding: 15 px;
+}

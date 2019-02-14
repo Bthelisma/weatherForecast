@@ -1,0 +1,23 @@
+<!-- <div>
+    <h1> {{City}} </h1>
+    <h3>Humidity: {{Humidity}} ˚F </h3><br>
+    <h3>Temperature (Average): {{TempAverage}} ˚F </h3><br>
+    <h3>Temperature (High): {{TempMax}}˚F </h3><br>
+    <h3>Temperature (Low): {{TempMin}} ˚F </h3><br>
+    <h3>Description: {{Status}}</h3>
+</div> -->
+<div style="text-align:center">
+
+
+    <button [routerLink]="['/seattle']">Seattle WA</button> |
+    <button [routerLink]="['/sanjose']">San Jose CA</button> |
+    <button [routerLink]="['/burbank']">Burbank CA</button> |
+    <button [routerLink]="['/dallas']">Dallas TX</button> |
+    <button [routerLink]="['/dc']">Washington DC</button> |
+    <button [routerLink]="['/chicago']">Chicago IL</button>
+    <img class="imageWithText" src="assets/images/weather.jpg">
+
+
+</div>
+
+<router-outlet></router-outlet>
